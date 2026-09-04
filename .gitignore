@@ -1,0 +1,5 @@
+# Hardware hashes identify specific physical devices — never commit them.
+*.csv
+
+# Downloaded at runtime.
+Get-WindowsAutoPilotInfo.ps1

@@ -102,6 +102,4 @@ you're collecting hashes in bulk or handing them to someone else to import.
 
 ## License
 
-No license is specified, which means all rights reserved by default — others can read
-this but not legally reuse it. If that isn't the intent, add a `LICENSE` file; MIT is
-the usual choice for scripts like these.
+[MIT](LICENSE) — use it, change it, ship it. Attribution appreciated, not required.

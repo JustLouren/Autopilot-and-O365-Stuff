@@ -1,5 +1,13 @@
 # Hardware hashes identify specific physical devices — never commit them.
 *.csv
+*.partial
+*HardwareHash*
+*hardwarehash*
+*AutopilotHWID*
+*autopilothwid*
 
-# Downloaded at runtime.
+# Downloaded at runtime from the PowerShell Gallery. The package is pinned and
+# hash-checked by AutopilotInfo.ps1; do not vendor the result.
+Get-WindowsAutopilotInfo.ps1
 Get-WindowsAutoPilotInfo.ps1
+*.nupkg
